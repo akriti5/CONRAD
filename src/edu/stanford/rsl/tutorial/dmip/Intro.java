@@ -68,7 +68,7 @@ public class Intro {
 		
 		
 		//Load an image from file
-		String filename = "/home/cip/medtech2015/bi24kuwe/DMIP/Reconstruction/CONRAD/src/edu/stanford/rsl/tutorial/dmip/mr12.dcm";
+		String filename = "/proj/i5dmip/bi24kuwe/Reconstruction/CONRAD/src/edu/stanford/rsl/tutorial/dmip/mr12.dcm";
 		//TODO. Hint: Use IJ and ImageUtil
 		// First open Image with ImageJ then put a Image Util Wrapper around it bc its filetype is fucked up
 		// Then get its 2D Data
@@ -93,7 +93,7 @@ public class Intro {
 			
 		
 		//write an image to disk, check the supported output formats
-		String outFilename ="/home/cip/medtech2015/bi24kuwe/DMIP/Reconstruction/CONRAD/src/edu/stanford/rsl/tutorial/dmip/mr12out.jpg";
+		String outFilename ="/proj/i5dmip/bi24kuwe/Reconstruction/CONRAD/src/edu/stanford/rsl/tutorial/dmip/mr12out.jpg";
 		IJ.save(ImageUtil.wrapGrid(mrImage, null), outFilename);
 		}
 	
